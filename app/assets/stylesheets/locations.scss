@@ -1,0 +1,10 @@
+// Place all the styles related to the Locations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.locationbg {
+  background-image: url(image-path("bus_icon"));
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center right;
+  width: 100%;
+}

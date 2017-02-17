@@ -1,0 +1,21 @@
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class = "container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href=/locations/new><strong>Marta</strong></a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+        <ul class="nav navbar-nav">
+          <% unless current_page?('/') || current_page?('/locations/new')%>
+          <li><a href=/locations/new >Find A Bus</a></li>
+          <% end %>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://www.latorimiller.com">About Latori</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
